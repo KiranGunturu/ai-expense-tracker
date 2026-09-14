@@ -1,0 +1,24 @@
+# Python virtual environment
+etracker/
+venv/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment variables / secrets
+.env
+*.pem
+*.key
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
