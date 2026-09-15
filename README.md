@@ -369,7 +369,7 @@ environment smaller and reproducible.
 
 ![alt text](/images/ae61.png)
 
-### Application Experience 6
+### Application Experience 7
 
 ![alt text](/images/ae7.png)
 
