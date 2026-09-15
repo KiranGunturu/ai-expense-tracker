@@ -369,6 +369,12 @@ environment smaller and reproducible.
 
 ![alt text](/images/ae61.png)
 
+### Application Experience 6
+
+![alt text](/images/ae7.png)
+
+![alt text](/images/ae71.png)
+
 ## License
 
 No license file is included yet. Add one (MIT, Apache-2.0, etc.) before sharing or

@@ -138,14 +138,18 @@ def show_activity(activity: list[dict]) -> None:
     tool_names = ", ".join(item["tool"] for item in activity)
     st.info(f"Tool called: `{tool_names}`")
     with st.expander("Database activity details", expanded=False):
-        for item in activity:
-            st.write(f"**Tool:** `{item['tool']}`")
-            st.write("**Arguments:**")
-            st.json(item["arguments"])
-            if "error" in item:
-                st.error(item["error"])
-            else:
-                st.json(item.get("result", {}))
+        # Fixed-height, internally scrollable box so long tool output
+        # doesn't push the chat input off-screen.
+        with st.container(height=400):
+            for item in activity:
+                st.write(f"**Tool:** `{item['tool']}`")
+                st.write("**Arguments:**")
+                st.json(item["arguments"])
+                if "error" in item:
+                    st.error(item["error"])
+                else:
+                    st.json(item.get("result", {}))
+                st.divider()
 
 
 def main() -> None:
