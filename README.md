@@ -321,6 +321,12 @@ environment smaller and reproducible.
 - Richer schema-aware prompts and validation
 - Automatic table creation and migrations
 
+## Execution
+
+# Table Str and Data
+
+![alt text](/images/ts.png)
+
 ## License
 
 No license file is included yet. Add one (MIT, Apache-2.0, etc.) before sharing or
@@ -330,3 +336,4 @@ distributing, since without it the default is "all rights reserved."
 
 Built for local development and testing: a terminal workflow and a Streamlit UI over
 one shared, validated SQL Server backend.
+
