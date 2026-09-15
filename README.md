@@ -323,9 +323,45 @@ environment smaller and reproducible.
 
 ## Execution
 
-# Table Str and Data
+### Table structure and data
 
 ![alt text](/images/ts.png)
+
+### Streamlit app execution
+
+![alt text](/images/se.png)
+
+### Streamlit App UI
+
+![alt text](/images/sui.png)
+
+### Application Experience 1
+
+![alt text](/images/ae1.png)
+
+### Application Experience 2
+
+![alt text](/images/ae2.png)
+
+![alt text](/images/ae21.png)
+
+![alt text](/images/ae22.png)
+
+### Application Experience 3
+
+![alt text](/images/ae3.png)
+
+### Application Experience 4
+
+![alt text](/images/ae4.png)
+
+![alt text](/images/ae41.png)
+
+![alt text](/images/ae42.png)
+
+### Application Experience 5
+
+![alt text](/images/ae5.png)
 
 ## License
 
